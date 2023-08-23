@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Auth from "./pages/Auth";
-import CreateRecipe from "./pages/CreateRecipe";
+import Auth from "./pages/Auth.js";
+import { CreateRecipe } from "./pages/CreateRecipe";
 import SavedRecipes from "./pages/SavedRecipes";
 import Navbar from "./components/Navbar";
 
